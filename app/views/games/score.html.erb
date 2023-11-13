@@ -1,0 +1,11 @@
+<h1>Scores</h1>
+
+<p><%= @message %></p>
+
+<ul>
+  <p>Your score is <%= @score %></p>
+  <p>The word you chose is: <%= @word %>.</p>
+  <p>The letters were: <%= @letters %></p>
+</ul>
+
+<%= link_to 'Play again !', new_path %>

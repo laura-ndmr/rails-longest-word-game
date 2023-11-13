@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Abril Fatface");
+
+body {
+  font-family: Abril Fatface;
+  font-weight: 300;
+  padding: 0 24px;
+  color: rgb(113, 110, 110);
+  padding-top: 30px;
+}
+
+.container {
+  width: 43%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 400;
+  color: rgb(98, 168, 211);
+  padding-bottom: 15px;
+}
+
+.letters {
+  padding-left: 0;
+  font-size: 24px;
+  list-style: none;
+  font-family: monospace;
+  li {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 4px 12px;
+    display: inline;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+form label {
+  color: rgb(98, 168, 211);
+  padding-bottom: 20px;
+}
+
+input[type="text"], input[type="submit"] {
+  background-color: transparent;
+  border: 1px solid rgb(98, 168, 211);
+}
+
+input[type="text"] {
+  width: 75%;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: rgb(129, 121, 121);
+  transition: .4s;
+  border-radius: 50px;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  width: 15%;
+  color: rgb(98, 168, 211);
+  transition: .3s;
+  border-radius: 50px;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: rgb(98, 168, 211);
+  border: 1px solid rgb(98, 168, 211);
+  font-weight: 500;
+}
